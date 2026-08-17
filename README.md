@@ -12,13 +12,7 @@ This repository contains the code used to examine variation in the three domains
 
 The work accompanies the manuscript:
 
-> Monteiro S, Ambraß L, de Sousa Fernandes Perna E, Stauder J. *Rethinking the Boundaries of Camouflaging: A Multivariate Analysis of Sex, Empathizing, Systemizing, and Autistic Traits.* Manuscript in preparation, 2026.
-
-## Study and analytical sample
-
-The study was conducted at Maastricht University using cross-sectional online-survey data. The processed dataset contained 195 participants. The primary women–men models included 193 participants: 145 women and 48 men. Two participants who selected another sex/gender response category were retained in the completed datasets but were not included in the binary women–men models because that group was too small for reliable estimation.
-
-Missing questionnaire values were handled using multiple imputation. Twenty completed datasets were generated; observed values were retained unchanged, and only missing values were replaced with plausible draws. Models were fitted separately in every completed dataset, and coefficients and covariance matrices were pooled using Rubin's rules.
+> Monteiro et al. (2026). *Rethinking the Boundaries of Camouflaging: A Multivariate Analysis of Sex, Empathizing, Systemizing, and Autistic Traits.* 
 
 ## Analytical workflow
 
@@ -40,52 +34,13 @@ Compensation, Masking, and Assimilation are modelled jointly using multivariate 
 - leave-one-participant-out stability analysis; and
 - generation of manuscript figures and tables.
 
-## Repository structure
+## Repository contents
 
-```text
-CATQ_Multivariate/
-├── code/       Analysis notebooks and supporting scripts
-├── data/       Data documentation and authorized analysis inputs
-├── output/     Generated figures, tables, and diagnostic summaries
-├── CITATION.cff
-├── LICENSE
-└── README.md
-```
+| Directory | Contents |
+|---|---|
+| [`code/`](code/) | Contains the complete analysis notebook, including modelling, sensitivity analyses, figures, and tables. It also contains the standalone impute script used to generate the multiply imputed datasets. |
+| [`data/`](data/) | Contains the processed source dataset of 195 participants and the ZIP package with the 20 completed imputed datasets used by the analysis notebook. |
 
-Generated files should normally be recreated from the analysis code rather than edited manually.
-
-## Running the analysis
-
-The analysis was developed in Python and can be run in Google Colab or a compatible Jupyter environment.
-
-Principal dependencies include:
-
-```text
-numpy
-pandas
-scipy
-matplotlib
-seaborn
-scikit-learn
-python-docx
-openpyxl
-```
-
-Place the authorized imputation package in `data/`, open the principal notebook in `code/`, and execute the workflow in order. The notebook is stateful: supplementary, figure, and table cells may consume fitted objects created by earlier modelling cells and should not be assumed to function independently. Before creating a release, restart the kernel and verify the complete workflow in a fresh session.
-
-## Data protection
-
-This repository must not contain identifiable or pseudonymized participant-level information unless public sharing is explicitly permitted by the participant consent, ethics approval, institutional policy, and applicable data-protection law. The original Qualtrics/SPSS export, contact information, and direct or indirect identifiers should not be committed.
-
-The `data/` directory should contain only data that have been approved for distribution, synthetic or example data, or documentation describing how qualified researchers may request access. The repository license does **not** override consent, ethical, contractual, privacy, or data-protection restrictions.
-
-## Citation
-
-If you use the code, analytical workflow, figures, or other licensed materials, please cite:
-
-> Monteiro S, Ambraß L, de Sousa Fernandes Perna E, Stauder J. *Rethinking the Boundaries of Camouflaging: A Multivariate Analysis of Sex, Empathizing, Systemizing, and Autistic Traits.* 2026.
-
-Machine-readable citation metadata are provided in [`CITATION.cff`](CITATION.cff). Update the preferred citation with the journal, volume, pages, and DOI after publication.
 
 ## License
 
@@ -93,6 +48,9 @@ Except where otherwise stated, the original code, documentation, and non-sensiti
 
 Participant-level data, personal data, third-party materials, and any content for which the repository contributors do not control the necessary rights are excluded from this license unless explicitly identified otherwise. See [`LICENSE`](LICENSE).
 
+<p align="center">
+  <img src="assets/um-logo.jpg" alt="Maastricht University logo" width="300">
+</p>
 ## Contact
 
 Sara Monteiro  
