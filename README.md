@@ -51,8 +51,3 @@ Participant-level data, personal data, third-party materials, and any content fo
 <p align="center">
   <img src="assets/um-logo.jpg" alt="Maastricht University logo" width="300">
 </p>
-## Contact
-
-Sara Monteiro  
-Department of Cognitive Neuroscience, Faculty of Psychology and Neuroscience, Maastricht University  
-[s.monteiro@alumni.maastrichtuniversity.nl](mailto:s.monteiro@alumni.maastrichtuniversity.nl)
