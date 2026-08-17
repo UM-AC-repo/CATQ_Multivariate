@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying manuscript using the preferred citation below."
+title: "CATQ Multivariate"
+type: software
+abstract: >-
+  Python and Jupyter materials for hierarchical multivariate analyses of
+  sex differences and trait-specific correlates of CAT-Q Compensation,
+  Masking, and Assimilation, pooled across multiply imputed datasets.
+authors:
+  - family-names: "Monteiro"
+    given-names: "Sara"
+  - family-names: "Ambraß"
+    given-names: "Leonie"
+  - family-names: "de Sousa Fernandes Perna"
+    given-names: "Eliza"
+  - family-names: "Stauder"
+    given-names: "Johannes"
+repository-code: "https://github.com/arasorietnom/CATQ_Multivariate"
+url: "https://github.com/arasorietnom/CATQ_Multivariate"
+license: "CC-BY-4.0"
+keywords:
+  - "autistic camouflaging"
+  - "CAT-Q"
+  - "multivariate regression"
+  - "multiple imputation"
+  - "empathizing"
+  - "systemizing"
+  - "autistic traits"
+  - "sex differences"
+preferred-citation:
+  type: article
+  title: "Rethinking the Boundaries of Camouflaging: A Multivariate Analysis of Sex, Empathizing, Systemizing, and Autistic Traits"
+  authors:
+    - family-names: "Monteiro"
+      given-names: "Sara"
+    - family-names: "Ambraß"
+      given-names: "Leonie"
+    - family-names: "de Sousa Fernandes Perna"
+      given-names: "Eliza"
+    - family-names: "Stauder"
+      given-names: "Johannes"
+  year: 2026
